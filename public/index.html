@@ -1192,24 +1192,24 @@ const interactive = document.querySelectorAll(
 
 interactive.forEach(el => {
   el.addEventListener('mouseenter', () => {
-    cursor.style.backgroundImage = "url('public/images/pointer.png')";
+    cursor.style.backgroundImage = "url('images/pointer.png')";
     cursor.style.transform = "translate(-50%, -50%) scale(1.2)";
   });
 
   el.addEventListener('mouseleave', () => {
-    cursor.style.backgroundImage = "url('public/images/cursor.png')";
+    cursor.style.backgroundImage = "url('images/cursor.png')";
     cursor.style.transform = "translate(-50%, -50%) scale(1)";
   });
 });
 
 // Click effect
 document.addEventListener('mousedown', () => {
-  cursor.style.backgroundImage = "url('public/images/hand.png')";
+  cursor.style.backgroundImage = "url('images/hand.png')";
   cursor.style.transform = "translate(-50%, -50%) scale(0.9)";
 });
 
 document.addEventListener('mouseup', () => {
-  cursor.style.backgroundImage = "url('public/images/cursor.png')";
+  cursor.style.backgroundImage = "url('images/cursor.png')";
   cursor.style.transform = "translate(-50%, -50%) scale(1)";
 });
   /* ── SCROLL REVEAL ── */
